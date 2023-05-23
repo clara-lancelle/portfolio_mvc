@@ -1,0 +1,93 @@
+li.admin__logo{
+    grid-column: 3;
+    grid-row: 1;
+    @include smallScreen{
+        margin: 0px 150px;
+    }
+    
+}
+
+section.comments{
+    margin-bottom: 5%;
+}
+
+.message__card {
+    box-shadow: 0.5px 0.5px 0.6px #e5e5e5, -0.5px -0.5px 2px #aeaeae;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.card__body__info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: $grey;
+    @include smallScreen{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.inline-center{
+    width: 250px;
+    justify-self: center;
+    display: flex;
+    @include smallScreen{
+        width: auto;
+        justify-self: auto;
+    }
+}
+
+.message__icon {
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+// Pagination
+
+.pagination_icon, .page-link--middle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #605a5a;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.page-item.disabled .pagination_icon{
+    color: #605a5a42;
+}
+
+
+
+.page-item.disabled{
+
+    a{
+        color: $light_blue_disabled;
+    }
+    
+    svg{
+        color: $light_blue_disabled;
+    }
+}
+
+.page-item.active{
+    a{
+        font-weight: bold;
+    }
+}
+
+// logout
+
+.logout{
+    width: auto;
+    color: grey;
+    display: flex;
+    justify-content: center;
+
+    button {
+        width: fit-content;
+        display: flex;
+        padding: 0.5rem;
+        justify-content: center;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

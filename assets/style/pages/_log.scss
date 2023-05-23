@@ -1,0 +1,23 @@
+.log__form{
+    max-width: 400px;
+    margin: auto;
+
+    form{
+        display: grid;
+        row-gap: 20px;
+
+        button.log{
+            justify-self: center;
+            padding: 10px;
+            background-color: $light_blue;
+        }
+    }
+}
+.logo_only{
+    margin: 0;
+    padding: 0; 
+    a img{
+        height: 3rem;
+    }
+}
+

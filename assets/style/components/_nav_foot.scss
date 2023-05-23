@@ -1,0 +1,283 @@
+// nav + banner
+
+
+header.nav_ban {
+    text-align: center;
+
+    .navbar {
+        justify-content: center;
+        background-color: $nav_foot;
+        width: -webkit-fill-available;
+        top: 0px;
+        z-index: 1;
+        position: fixed;
+        display: grid;
+        grid-template-rows: 1fr;
+        padding: 5px;
+        grid-column-gap: 30px;
+
+        @include x_smallScreen {
+            grid-auto-flow: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+
+        .navbar__items__logo {
+            margin: 2px;
+            grid-row: 1;
+
+            .logo {
+                border-radius: 50px;
+                width: 60px;
+
+                @include x_smallScreen {
+                    width: 50px;
+                    padding: 0px;
+                }
+            }
+        }
+
+        nav.navbar__items {
+            align-self: center;
+            grid-row: 1;
+
+
+            ul {
+                list-style: none;
+                display: inline-grid;
+                grid-template-columns: repeat(4, 200px);
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                margin: 3px auto;
+
+
+
+                @include smallScreen {
+                    grid-template-columns: repeat(4, 150px);
+                }
+                @include x_smallScreen {
+                    grid-template-columns: 1fr;
+                }
+
+                .navbar__items__link {
+
+                    a {
+                        color: $dark_white;
+                        font-size: 20px;
+
+                        @include smallScreen {
+                            font-size: 18px;
+                        }
+
+                        @include x_smallScreen {
+                            font-size: 15px;
+                        }
+
+                        &:hover {
+                            color: white;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+
+
+    .bloc__banner {
+        background-image: url(/assets/img/bgd.jpg);
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        padding: 12rem 0%;
+        display: flex;
+        box-sizing: border-box;
+        min-height: 500px;
+        margin-top: 68px;
+
+        @include x_smallScreen {
+            text-align: center;
+            padding: 5rem 2rem;
+        }
+
+
+        h1.banner__header__title {
+            font-size: 4.2rem;
+            line-height: 4.2rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            text-transform: uppercase;
+            color: #0b2e5c;
+
+            @include x_smallScreen {
+                font-size: 2rem;
+            }
+        }
+
+        h2.banner__header__desc {
+            font-size: 2.5rem;
+            line-height: 3rem;
+            margin-bottom: 3rem;
+            font-weight: lighter;
+
+            @include x_smallScreen {
+                font-size: 1.5rem;
+            }
+        }
+
+        h3.banner__body__welcome {
+            font-size: 2rem;
+            letter-spacing: 4px;
+            color: rgba(74, 75, 78, 0.5411764706);
+            background-color: rgba(46, 61, 98, 0.1);
+            padding: 0.3rem 7rem;
+            margin-bottom: 5rem;
+
+            @include smallScreen {
+                font-size: 1.5rem;
+            }
+
+            @include x_smallScreen {
+                font-size: 1.3rem;
+            }
+
+            @include xx_smallScreen {
+                padding: 0.3rem;
+            }
+
+        }
+
+        p.banner__body__desc {
+            font-size: 1.5rem;
+            line-height: 1.3rem;
+            margin-bottom: 2rem;
+
+            @include x_smallScreen {
+                font-size: 1.2rem;
+            }
+        }
+
+        a.scroll-down svg path {
+            color: $dark_blue;
+        }
+    }
+}
+
+
+
+
+
+ul.logo_only {
+    display: block !important;
+}
+
+
+.banner--small {
+    height: 300px;
+}
+
+
+
+
+// hamburger menu
+
+@include x_smallScreen {
+
+
+
+    #menu-button {
+        width: 60px;
+        border-radius: 30px;
+        position: relative;
+        cursor: pointer;
+        transition: all linear 0.3s;
+        padding: 2px;
+        z-index: 99;
+    }
+
+    #line-1,
+    #line-2,
+    #line-3 {
+        background: rgb(210, 211, 211);
+        width: 30px;
+        height: 6px;
+        margin: 6px auto;
+        border-radius: 2px;
+        transition: all linear 0.3s;
+
+    }
+
+    #line-1.active {
+        -webkit-transform: translate(0px, 12px) rotate(45deg);
+        transform: translate(0px, 12px) rotate(45deg);
+    }
+
+    #line-2.active {
+        opacity: 0;
+    }
+
+    #line-3.active {
+        -webkit-transform: translate(0px, -12px) rotate(-45deg);
+        transform: translate(0px, -12px) rotate(-45deg);
+    }
+
+    #menu {
+        transition: all linear .3s;
+        padding: 10px;
+        padding-top: 30px;
+        color: white;
+        font-family: arial;
+        font-size: 1.5rem;
+        display: none;
+        position: absolute;
+        top: 60px;
+        border-radius: 5px;
+        background: inherit;
+        width: inherit;
+       
+    }
+
+    #menu ul {
+        list-style: none;
+    }
+
+    #menu ul li {
+        margin: 8px 0;
+    }
+
+    #menu-button.active {
+        background: rgb(177, 2, 2);
+        color: white;
+        +#menu {
+            display: block;
+
+        }
+    }
+
+
+}
+
+// footer
+
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: $nav_foot;
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 17px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    p {
+
+        margin: 0 auto;
+    }
+}
