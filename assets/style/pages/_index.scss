@@ -39,6 +39,8 @@ section.bloc.aboutMe {
             padding: 30px;
             width: 12rem;
             margin: 1rem auto;
+            grid-row: 1;
+            grid-column: 1/-1;
         
             &::after {
                 content: '';

@@ -22,17 +22,18 @@
                         <div class="profilImg"></div>
                     </figure>
                     <p class="body__desc">
-                        Je m'appelle Clara, j'ai 25 ans et je suis en formation de 'Développeur web et web mobile' à La
-                        Manu (école du numérique),
-                        Compiègne. <br><br>
-                        Cette formation intensive permet d'obtenir un titre Professionnel d’Etat « Développeur Web et
-                        Web Mobile » (RNCP 31114, Bac+2). <br> <br>
-                        Je souhaite réaliser, en septembre, une année de licence général informatique en alternance au sein du lycée Saint Vincent à Senlis (60). <br>
-                        De septembre 2021 à septembre 2022, je me suis formée, en autodidacte, aux bases du metier de
-                        developpeur via des sites internet comme OpenClassroom et Pierre Giraud. <br><br>
-                        Je suis très interéssée et passionnée par les langages et logiciels que j'apprend, j'aime tester
-                        mes connaissances et réaliser des projets dans lesquels je peux me confronter à de nouvelles
-                        fonctionnalités mais aussi, à de nouvelles problématiques. <br>
+                        Je m'appelle Clara, j'ai 25 ans et je suis développeuse web junior !<br>
+                        J'intégrerai, en septembre, la licence générale informatique du lycée Saint Vincent à Senlis (60),
+                         que je réaliserai en alternance.<br> <br>
+
+                        En 2021, j’ai décidé d’effectuer une reconversion professionnelle,
+                        de septembre 2021 à septembre 2022, je me suis formée, en autodidacte,
+                        aux langages et outils de bases du métier de développeur via des sites internet comme OpenClassroom et Pierre Giraud. <br><br>
+                        Je suis passionnée par les langages et logiciels que j'apprends,
+                        j'aime tester mes connaissances et réaliser des projets dans lesquels je peux me confronter à de nouvelles problématiques. <br>
+
+                        J’ai récemment obtenu le titre professionnel d’Etat « Développeur Web et Web Mobile » (RNCP 31114, Bac+2),
+                        suite à une formation intensive 'Développeur web et web mobile' à La Manu (école du numérique), Compiègne. <br> <br>      
                     </p>
                 </div>
                 <div class="aboutMe__content__btn btn">
