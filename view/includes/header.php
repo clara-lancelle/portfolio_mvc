@@ -14,19 +14,19 @@
     <header class="nav_ban">
         <nav class="navbar__items navbar">
             <ul class="logo_only">
-                <a href="/index">
+                <a class="navbar__items__logo" href="/index" title="lien vers la page d'accueil">
                     <img class="logo" src="/assets/img/logo.png" alt="logo">
                 </a>
             </ul>
         </nav>
-        <div class="bloc__banner banner--small">
+        <div class="bloc__banner bloc__banner--small">
             <div class="banner__content">
                 <header class="banner__header">
                     <h1 class="banner__header__title">Lancelle Clara</h1>
                     <h2 class="banner__header__desc">Etudiante en développement Web</h2>
                 </header>
                 <div class="banner__body">
-                    <h4 class="banner__body__welcome"> <?= $title ?> </h4>
+                    <h3 class="banner__body__welcome"> <?= $title ?> </h3>
                 </div>
             </div>
         </div>
@@ -34,11 +34,9 @@
     <?php } else { ?>
         <header class="nav_ban">
         <div class="navbar">
-            <figure class="navbar__items__logo">
-                <a id="home_link" href="#" title="lien vers la page d'accueil">
+                <a class="navbar__items__logo" id="home_link" href="#" title="lien vers la page d'accueil">
                     <img class="logo" src="assets/img/logo.png" alt="logo du portfolio de Lancelle Clara">
                 </a>
-            </figure>
 
             <div id="menu-button">
                 <div id="line-1"></div>

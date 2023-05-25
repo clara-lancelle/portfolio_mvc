@@ -35,23 +35,23 @@ final class MessageValidation
             $this->formErrors['email'] = $this->errors['email_empty'];
         }
         //lastname
-        if (isset($post['lastname']) &&!empty($post['lastname'])) {
+        if (isset($post['lastname']) && !empty($post['lastname'])) {
             if (!preg_match($this->regex['name'], strval($post['lastname']))) {
                 $this->formErrors['content'] = $this->errors['lastname_invalid'];
             }
         } else {
-            $this->formErrors['content'] = $this->errors['lastname_empty'];
+            $this->formErrors['lastname'] = $this->errors['lastname_empty'];
         }
         //firstname
-        if (isset($post['firstname']) &&!empty($post['firstname'])) {
+        if (isset($post['firstname']) && !empty($post['firstname'])) {
             if (!preg_match($this->regex['name'], strval($post['firstname']))) {
                 $this->formErrors['content'] = $this->errors['firstname_invalid'];
             }
         } else {
-            $this->formErrors['content'] = $this->errors['firstname_empty'];
+            $this->formErrors['firstname'] = $this->errors['firstname_empty'];
         }
         //message
-        if (isset($post['message']) &&!empty($post['message'])) {
+        if (isset($post['message']) && !empty($post['message'])) {
             if (!preg_match($this->regex['message'], strval($post['message']))) {
                 $this->formErrors['content'] = $this->errors['message_invalid'];
             }

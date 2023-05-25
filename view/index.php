@@ -17,6 +17,10 @@
                 </header>
                 <div class="section-divider"></div>
                 <div class="aboutMe__content__body">
+                    <figure class="body__img myPic">
+                        <!--<img src="/assets/img/photo_cv_2.0.jpg" alt="Photo d'identité / de profil de lancelle Clara"> -->
+                        <div class="profilImg"></div>
+                    </figure>
                     <p class="body__desc">
                         Je m'appelle Clara, j'ai 25 ans et je suis en formation de 'Développeur web et web mobile' à La
                         Manu (école du numérique),
@@ -30,9 +34,6 @@
                         mes connaissances et réaliser des projets dans lesquels je peux me confronter à de nouvelles
                         fonctionnalités mais aussi, à de nouvelles problématiques. <br>
                     </p>
-                    <figure class="body__img myPic">
-                        <img src="/assets/img/photo_cv_2.0.jpg" alt="Photo d'identité / de profil de lancelle Clara">
-                    </figure>
                 </div>
                 <div class="aboutMe__content__btn btn">
                     <a href="/assets/img/cv_lancelle_clara_portfolio.pdf" class="cv__btn" target="_blank"
@@ -719,7 +720,6 @@
                 </div>
             </div>
         </section>
-
         <section class="bloc">
             <div class="contact__content">
                 <header class="contact__content__header">

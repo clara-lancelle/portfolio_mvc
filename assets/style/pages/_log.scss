@@ -1,4 +1,4 @@
-.log__form{
+.log__form {
     max-width: 400px;
     margin: auto;
 
@@ -6,18 +6,25 @@
         display: grid;
         row-gap: 20px;
 
-        button.log{
+        button.log {
             justify-self: center;
             padding: 10px;
             background-color: $light_blue;
         }
     }
+
+    &__input {
+        border: none;
+        box-shadow: 0.5px 0.5px 0.6px rgb(170, 170, 170), -0.5px -0.5px 4px rgb(174, 174, 174);
+        margin-top: .5rem;
+        &:focus-visible {
+            box-shadow: 0.5px 0.5px 0.6px rgb(90, 89, 89), -0.5px -0.5px 5px rgb(67, 62, 62);
+            outline: none;
+        }
+    }
 }
-.logo_only{
+.logo_only {
     margin: 0;
     padding: 0; 
-    a img{
-        height: 3rem;
-    }
 }
 

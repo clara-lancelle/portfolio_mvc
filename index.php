@@ -1,4 +1,10 @@
 <?php
+/* change on prod
+    if (!empty($arguments[1])) {
+        $controller = $arguments[1] ?? null;
+        $action = $arguments[2] ?? null;
+    } 
+*/
 
 require 'includes/sessionStart.php';
 require 'autoloader.php';
@@ -14,8 +20,6 @@ if (count($_GET) > 0) {
         $controller = $arguments[0] ?? null;
         $action = $arguments[1] ?? null;
     } 
-} else {
-    $_GET['params'] = 'index';
 }
 
 $controllerNamespace = 'Controller\\' . ucfirst($controller) . 'Controller';

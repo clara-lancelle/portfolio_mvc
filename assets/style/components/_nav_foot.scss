@@ -30,9 +30,11 @@ header.nav_ban {
             .logo {
                 border-radius: 50px;
                 width: 60px;
+                height: 60px;
 
                 @include x_smallScreen {
                     width: 50px;
+                    height: 50px;
                     padding: 0px;
                 }
             }
@@ -98,9 +100,14 @@ header.nav_ban {
         min-height: 500px;
         margin-top: 68px;
 
+        &--small {
+            min-height: 400px;
+            padding: 3rem 0%;
+        }
+
         @include x_smallScreen {
             text-align: center;
-            padding: 5rem 2rem;
+            padding: 2rem 1rem;
         }
 
 
@@ -173,14 +180,6 @@ header.nav_ban {
 ul.logo_only {
     display: block !important;
 }
-
-
-.banner--small {
-    height: 300px;
-}
-
-
-
 
 // hamburger menu
 

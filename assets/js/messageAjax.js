@@ -1,4 +1,6 @@
 // Ajax 
+let is_error = false;
+
 let errors = {
     'lastname_invalid': 'Le nom de famille est invalide, il ne peut contenir que des lettres et des caractères accentués.',
     'lastname_empty': 'Le nom de famille est obligatoire.',
@@ -39,9 +41,11 @@ document.addEventListener('change', (e) => {
             p.id = el.id + '_error';
             p.innerHTML = error;
             el.after(p);
+            is_error = true;
         } else {
             el.classList.add('valid');
             el.classList.remove('invalid');
+            is_error = false;
         }
     };
     if(e.target.id === 'lastname' || e.target.id === 'firstname' || e.target.id === 'email' || e.target.id === 'message') {
@@ -50,8 +54,6 @@ document.addEventListener('change', (e) => {
 })
 
 document.getElementById('messageFormBtn').addEventListener('click', (e) => {
-    e.preventDefault();
-    
     let formData = {
         'lastname': document.getElementById('lastname').value,
         'firstname': document.getElementById('firstname').value,
@@ -59,7 +61,20 @@ document.getElementById('messageFormBtn').addEventListener('click', (e) => {
         'message': document.getElementById('message').value,
         'action': 'send'
     };
+
+    Object.entries(formData).forEach(([key, value]) => {
+        console.log(value);
+        value === '' ? is_error = true : '';
+        document.getElementById('ajaxMessage').innerHTML = 'Merci de remplir tous les champs.';
+    });
+    console.log(is_error);
+    if(is_error) {
+        e.preventDefault();
+        return;
+    }
+    document.getElementById('ajaxMessage').innerHTML = '';
     sendComment(formData);
+    
     async function sendComment(formData) {
 
         const response = await fetch('/index/sendMessage', {
@@ -88,6 +103,10 @@ function responseJsonHandling(response) {
 function bodyHandling(body) {
     if (body.success) {
         console.log('success');
+        document.querySelectorAll('input, textarea').forEach(el => {
+            el.value = '';
+            el.innerHTML = '';
+        })
         return alert('Message envoyé avec succès !');
     }
     if (body.message) {
@@ -95,7 +114,12 @@ function bodyHandling(body) {
     } 
     if (body.formErrors) {
         // $formErrors
+        if(Object.keys(body.formErrors).length > 0) {
             document.getElementById('ajaxMessage').innerHTML = body.formErrors.content;
+        } else {
+            document.getElementById('ajaxMessage').innerHTML = body.formErrors[0];
+        }
+            
     }
 }
 

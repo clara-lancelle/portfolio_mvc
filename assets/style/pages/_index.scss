@@ -1,3 +1,11 @@
+:root {
+    --border: 3px;
+    --color1: #00d0ff;
+    --color2: #bc004e;
+    --from: 30deg;
+    --distance: 46%;
+  }
+
 body {
     margin: 0px;
     max-width: 100%;
@@ -27,22 +35,45 @@ section.bloc.aboutMe {
 
         .body__img {
             justify-self: center;
-            grid-row: 1;
-            padding: 1.4rem;
-            border-bottom: solid 2px $nav_foot;
-            border-left: 4px solid $nav_foot;
-
-           @include xx_smallScreen {
-            padding: 0.3rem;
-            margin:0.5rem auto
-           }
-
-            img {
-                width: 250px;
-
-                @include x_smallScreen() {
-                    width: 150px;
-                }
+            position: relative;
+            padding: 30px;
+            width: 12rem;
+            margin: 1rem auto;
+        
+            &::after {
+                content: '';
+                border-radius: 999px;
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background: conic-gradient(
+                from var(--from),
+                var(--color1),
+                var(--color2) var(--distance),
+                transparent var(--distance)
+                );
+                -webkit-mask: radial-gradient(
+                farthest-side,
+                transparent calc(100% - var(--border)),
+                #fff calc(100% - var(--border) + 1px)
+                );
+                mask: radial-gradient(
+                farthest-side,
+                transparent calc(100% - var(--border)),
+                #fff calc(100% - var(--border) + 1px)
+                );
+            }
+            .profilImg {
+                border-radius: 999px;
+                display: block;  
+                width: 190px;
+                height: 197px;
+                background-image: url("/assets/img/photo_cv_2.0.jpg");
+                background-size: cover;
+                background-position-y: -20px;
             }
         }
 
@@ -294,6 +325,9 @@ svg.bi.bi-zoom-in {
                 img {
                     width: 70%;
                     place-self: center;
+                    @include smallScreen {
+                        width: 90%;
+                    }
                 }
 
                 @include smallScreen {
