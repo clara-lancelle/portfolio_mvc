@@ -479,7 +479,7 @@
                                     - Enregistrement de nouvelles recettes. <br>
                                     - Modification de ses recettes. <br>
                                     - Affichage de l'ensemble des recettes de la communautée. <br>
-                                    - Affichage de l'ensemble de ses recettes. <br>
+                                    - Affichage de l'ensemble de ses recettes.
                                 </p>
                             </div>
                             <div class="card__link">
@@ -558,7 +558,7 @@
 
                                     Fonctionalités : <br><br>
                                     - Jouer ! <br>
-                                    - Rejouer !<br>
+                                    - Rejouer !
                                 </p>
                             </div>
                             <div class="card__link">
@@ -624,7 +624,7 @@
                                     Ce <em>Site web e-commerce Wordpress</em> est un exercice proposé durant ma
                                     formation de
                                     'développeur web et web
-                                    mobile' <br><br><br>
+                                    mobile' <br><br>
                                     Il est entièrement réalisé via le CMS Wordpress. <br>
                                     Le constructeur de page Elementor a été utilisé pour concevoir ce site web. <br>
                                     L'extention <em>WooCommerce</em> m'a permis de réaliser la partie e-commerce de ce
@@ -634,11 +634,10 @@
                                     <br><br>
                                     Amaranth est le site web d'un artiste parisien souhaitant faire connaitre son
                                     travail,
-                                    ses actualitées mais aussi vendre ses oeuvre. <br><br><br><br>
+                                    ses actualitées mais aussi vendre ses oeuvre. <br><br>
 
                                     Nb : Amaranth traite d'une entreprise fictive, toutes les images sont libres de
                                     droit.
-                                    <br>
                                 </p>
                             </div>
                     </article>
@@ -683,7 +682,7 @@
                                     Ce <em>Calendrier réalisé en PHP</em> est un exercice proposé durant ma
                                     formation de
                                     'développeur web et web
-                                    mobile' <br><br><br>
+                                    mobile' <br><br>
                                     Il est entièrement réalisé en HTML / CSS / PHP .<br>
                                     J'ai d'abord réalisé cet exercice comme demandé dans l'énoncé (sans PHP orienté
                                     objet).<br>
@@ -692,7 +691,7 @@
                                     d'obtenir un calendrier en POO.
                                     <br>
                                     Pour l'utiliser il suffit de fournir un mois, une année et grâce à l'algorithme mis
-                                    en place, il génère le calendrier demandé entre 1900 et aujourd'hui. <br> <br>
+                                    en place, il génère le calendrier demandé entre 1900 et aujourd'hui.
                                 </p>
                             </div>
                             <div class="card__link">
@@ -715,6 +714,86 @@
                                             https://calendar.lancelle-clara.fr/</a>
                                     </p>
                                 </div>
+                            </div>
+                    </article>
+                    <article class="card">
+                            <div class="card__title">
+                                <h5>Mystery Number</h5>
+                            </div>
+                            <figure class="card__img">
+                                <img class="modalBtn" src="/assets/img/mystery_number_start.png"
+                                        alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                                <div class="modal">
+                                    <!-- Modal content -->
+                                    <div class="modal-  content">
+                                    <span class="close">&times;</span>
+                                    <img class="sites--modal" src="/assets/img/mystery_number_start.png"
+                                        alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                                    </div>
+                                </div>
+                                <img class="modalBtn" src="/assets/img/mystery_number_on.png"
+                                        alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                                <div class="modal">
+                                    <!-- Modal content -->
+                                    <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <img class="sites--modal" src="/assets/img/mystery_number_on.png"
+                                        alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                                    </div>
+                                </div>
+                                <img class="modalBtn" src="/assets/img/mystery_number_win.png"
+                                        alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                                <div class="modal">
+                                    <!-- Modal content -->
+                                    <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <img class="sites--modal" src="/assets/img/mystery_number_win.png"
+                                        alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="card__desc">
+                                <p class="body__desc">
+                                    Ce <em>Logiciel python</em> est un jeu disponible en terminal de commandes.<br><br>
+                                    Le but du jeu est simple, vous devez devinez un chiffre entre 0 et 100, à chaque mauvaise réponse la consigne va utiliser votre réponse pour vous afficher un nouvel interval.<br><br>
+                                    Exemple :<br>
+                                    Consigne : "Un nombre mystère entre 0 et 100 a été généré, lequel ?".<br>
+                                    Votre réponse : 30.<br>
+                                    //Trop petit !.<br>
+                                    Nouvelle consigne : "Le nombre mystère se trouve donc entre 30 et 100.". <br><br>
+                                    Utilisation : <br>
+                                    - Cloner le depot GitHub (lien ci-après),<br>
+                                    Attention, si vous utilisez Python2 :<br>
+                                        Dans le fichier main.py, décommentez l'import "from Play import Play" et commentez "from Play_typed import Play".<br>
+                                    - Dans votre terminal, executez le fichier main.py :   "python3 /folder_directory/main.py".
+                                </p>
+                            </div>
+                            <div class="card__link card__link--one">
+                                <div class="github">
+                                    <p> Retrouvez ce projet sur mon dêpot GitHub : </p>
+                                    <a href="https://github.com/clara-lancelle/mystery_number" target="_blank"
+                                        title="lien vers le github deMystery number - devine le nombre mystère par clara Lancelle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                    </article>
+                    <article class="card">
+                            <div class="card__title">
+                                <h5>Share your Plate</h5>
+                            </div>
+                            <figure class="card__img">
+                                <img src="/assets/img/construction.gif" alt="gif - en construction">
+                            </figure>
+                            <div class="card__desc">
+                                <p class="body__desc">
+                                    <em>Application Django(python), Tailwind css.</em><br><br>
+                                    En cours de développement <br>
+                                </p>
                             </div>
                     </article>
                     <div id="contact"></div>

@@ -95,11 +95,11 @@ h5 {
 /// p
 
 p.body__desc{
-    font-size: 18px;
+    font-size: 17px;
     text-align: justify;
     line-height: 28px;
     @include x_smallScreen{
-        font-size: 16px;
+        font-size: 14px;
         padding-right: 5px;
     }
 }
@@ -208,10 +208,8 @@ input{
     height: 40px;
     border-radius: 5px;
     width: -webkit-fill-available;
-    font-size: 16px;
     @include smallScreen{
        height: 30px;
-       font-size: 15px;
     }
 }
 
@@ -220,23 +218,23 @@ textarea{
     width: -webkit-fill-available;
     align-self: center;
     height: -webkit-fill-available;
-    font-size: 1.1rem;
     padding: 8px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-    @include smallScreen{
-        font-size: 1rem;
-     }
 }
 select,
 input,
 textarea {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
     &.valid {
         border: 2px solid $success !important;
     }
     
     &.invalid {
         border: 2px solid $error !important;
+    }
+    @include smallScreen{
+        font-size: .9rem;
     }
 }
   

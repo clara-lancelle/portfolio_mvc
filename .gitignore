@@ -1,0 +1,9 @@
+# node_modules
+
+/assets/node_modules
+
+portfolio.sql
+
+.htaccess
+package-lock.json
+package.json
