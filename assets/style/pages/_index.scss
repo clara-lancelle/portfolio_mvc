@@ -113,7 +113,7 @@ section.bloc.aboutMe {
 
     &__body {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-auto-flow: row;
         column-gap: 2rem;
         row-gap: 2rem;
@@ -122,148 +122,99 @@ section.bloc.aboutMe {
         margin-top : 1rem;
 
         @include smallScreen {
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
             row-gap: 1rem;
         }
 
         @include x_smallScreen {
-            grid-template-columns: 45% 45%;
+            grid-template-columns: 25% 25% 25%;
 
         }
         .card-skills {
             display: flex;
             justify-content: center;
-            border: rgba(66, 103, 124, 0.2) ridge 4px;
 
             .card-skills__content {
                 text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
 
                 &__img {
-                    height: 5rem;
+                    height: 6rem;
+                    width: 6rem;
+                    border: rgba(66, 103, 124, 0.2) ridge 4px;
+                    border-radius: 100%;
+                    overflow: hidden;
                     margin: 0.5em;
+                    display: flex;
+                    justify-content: center;
 
                     @include smallScreen {
-                        height: 3rem;
+                        height: 4rem;
+                        width: 4rem;
                     }
 
                     img {
-                        height: 5rem;
-
-                        @include smallScreen {
-                            height: 3rem;
-                        }
+                        max-height: 70%;
+                        max-width: 70%;
+                        align-self: center;
+                        justify-self: center;
                     }
                 }
 
-                .grade {
-                    display: block;
-                    background-color: $grey;
-                    border-radius: 15px;
-                    width: 15rem;
-                    margin: 0.8rem;
-
-                    @include x_smallScreen {
-                        width: 7rem;
-                    }
-
-                    .progress {
-                        background-color: $light_green;
-                        text-align: right;
-                        border-radius: 15px;
-                        padding: 0.2rem;
-
-                        p {
-                            margin: 0rem;
-                            color: $dark_grey;
-                            font-size: 0.6rem;
-                        }
-
-                    }
-
-                    .p85 {
-                        width: 85%;
-                    }
-
-                    .p80 {
-                        width: 80%;
-                    }
-
-                    .p75 {
-                        width: 75%;
-                    }
-
-                    .p70 {
-                        width: 70%;
-                    }
-
-                    .p60 {
-                        width: 60%;
-                    }
-                    .p50 {
-                        width: 50%;
-                    }
-                    .p40 {
-                        width: 40%;
-                    }
-                    .p30 {
-                        width: 30%;
-                    }
-                    .p10 {
-                        width: 10%;
-                    }
-                }
-            }
+            }    
         }
     }
+
 }
-
-.skills__degree {
-    margin: 7% 0%;
-
-    @include x_smallScreen {
-        margin: 15% 0%;
-        padding: 3%;
-    }
-    &__content {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-auto-flow: row;
-        column-gap: 1%;
-        row-gap: 6%;
-
-        @include smallScreen {
-            grid-template-columns: 1fr 1fr;
-            margin-bottom: 8rem;
-        }
+    .skills__degree {
+        margin: 7% 0%;
 
         @include x_smallScreen {
-            grid-template-columns: 1fr;
-            row-gap: 0%;
-            margin-bottom: auto;
+            margin: 15% 0%;
+            padding: 3%;
         }
+        &__content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-flow: row;
+            column-gap: 1%;
+            row-gap: 6%;
 
-        .card-degree {
-            text-align: center;
-                a svg path {
-                    color: $wine;
-                }
+            @include smallScreen {
+                grid-template-columns: 1fr 1fr;
+                margin-bottom: 8rem;
+            }
 
-                img.degree {
-                    max-width: 350px;
+            @include x_smallScreen {
+                grid-template-columns: 1fr;
+                row-gap: 0%;
+                margin-bottom: auto;
+            }
 
-                    @include smallScreen {
-                        max-width: 80%;
+            .card-degree {
+                text-align: center;
+                    a svg path {
+                        color: $wine;
+                    }
+
+                    img.degree {
+                        max-width: 350px;
+
+                        @include smallScreen {
+                            max-width: 80%;
+                        }
                     }
                 }
-            }
 
-            h3 {
-                font-size: 17px;
-                color: $grey;
-                margin: 2% auto;
+                h3 {
+                    font-size: 17px;
+                    color: $grey;
+                    margin: 2% auto;
+                }
             }
-    }
-}
+        }
 
 svg.bi.bi-zoom-in {
     color: $wine;
@@ -286,7 +237,7 @@ svg.bi.bi-zoom-in {
             border: $grey 2px solid;
             padding: 2%;
             display: grid;
-            grid-auto-flow: column;
+            grid-auto-flow: column; 
 
             @include smallScreen {
                 grid-auto-flow: row;
@@ -302,6 +253,8 @@ svg.bi.bi-zoom-in {
                 @include smallScreen {
                     grid-row: 1;
                     grid-column: 1;
+                    margin-bottom: 1rem;
+                    padding-bottom: 1rem;
                 }
 
                 h3 {
@@ -323,9 +276,10 @@ svg.bi.bi-zoom-in {
                 grid-row: 1/4;
                 text-align: center;
                 align-self: center;
+                margin: 0;
 
                 img {
-                    width: 70%;
+                    width: 75%;
                     place-self: center;
                     @include smallScreen {
                         width: 90%;
@@ -461,6 +415,7 @@ section.bloc .contact__content {
             grid-auto-flow: row;
             row-gap: 25px;
             grid-template-columns: 1fr;
+            padding: 0;
         }
 
     }

@@ -47,13 +47,13 @@
             <nav class="navbar__items" role="navigation" id="menu">
                 <ul>
                     <li class="navbar__items__link">
-                        <a href="#moi" title="lien vers section : à propos de moi"> A propos de moi </a>
+                        <a href="#me" title="lien vers section : à propos de moi"> A propos de moi </a>
                     </li>
                     <li class="navbar__items__link">
-                        <a href="#compétences" title="lien vers section : compétences"> Compétences </a>
+                        <a href="#skills" title="lien vers section : compétences"> Compétences </a>
                     </li>
                     <li class="navbar__items__link">
-                        <a href="#réalisations" title="lien vers section : réalisations"> Réalisations </a>
+                        <a href="#achievements" title="lien vers section : réalisations"> Réalisations </a>
                     </li>
                     <li class="navbar__items__link">
                         <a href="#contact" title="lien vers section : contact"> Contact </a>
@@ -72,7 +72,7 @@
                     <p class="banner__body__desc"> Vous trouverez ici mes compétences, mes réalisations ainsi que mon
                         CV. </p>
                 </div>
-                <a href="#" id="scroll_down_btn" class="scroll-down" address="true">
+                <a href="#me" id="scroll_down_btn" class="scroll-down" address="true">
                     <svg xmlns="http://www.w3.org/2000/svg"fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
                     </svg>

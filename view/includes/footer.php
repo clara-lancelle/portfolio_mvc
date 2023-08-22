@@ -1,7 +1,7 @@
 <footer>
     <div class="copy-right">
         <p class="copy-right__text">
-            Lancelle Clara &copy; 2022
+            Lancelle Clara &copy; <?php echo date("Y"); ?>
         </p>
     </div>
 </footer>

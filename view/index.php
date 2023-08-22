@@ -1,5 +1,5 @@
 <?php include(__DIR__.'/includes/header.php'); ?>
-<div id="moi"></div>
+<div id="me"></div>
     <main>
         <button id="scroll_up_btn" class="scroll_top" title="Go to top">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -45,7 +45,7 @@
                         </svg></a>
                 </div>
             </div>
-            <div id="compétences"></div>
+            <div id="skills"></div>
         </section>
 
         <section class="bloc">
@@ -61,12 +61,7 @@
                             <figure class="card-skills__content__img">
                                 <img class="logo" src="/assets/img/HTML5_logo.png" alt="logo HTML5">
                             </figure>
-                            <h5>HTML5</h5>
-                            <div class="grade">
-                                <div class="progress p85">
-                                    <p> 85% </p>
-                                </div>
-                            </div>
+                            <h6>HTML5</h6>
                         </div>
                     </div>
                     <div class="card-skills">
@@ -74,12 +69,15 @@
                             <figure class="card-skills__content__img">
                                 <img class="logo" src="/assets/img/CSS3_logo.png" alt="logo CSS3">
                             </figure>
-                            <h5>CSS3</h5>
-                            <div class="grade">
-                                <div class="progress p85">
-                                    <p> 85% </p>
-                                </div>
-                            </div>
+                            <h6>CSS3 + (Frameworks : Bootstrap & Tailwind)</h6>
+                        </div>
+                    </div>
+                    <div class="card-skills">
+                        <div class="card-skills__content">
+                            <figure class="card-skills__content__img">
+                                <img class="logo" src="/assets/img/sass_logo.png" alt="logo SCSS">
+                            </figure>
+                            <h6>SASS</h6>
                         </div>
                     </div>
                     <div class="card-skills">
@@ -87,25 +85,7 @@
                             <figure class="card-skills__content__img">
                                 <img class="logo" src="/assets/img/JavaScript_logo.png" alt="logo JS">
                             </figure>
-                            <h5>JavaScript</h5>
-                            <div class="grade">
-                                <div class="progress p60">
-                                    <p> 60% </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-skills">
-                        <div class="card-skills__content">
-                            <figure class="card-skills__content__img">
-                                <img class="logo" src="/assets/img/python.png" alt="logo Python">
-                            </figure>
-                            <h5>Python</h5>
-                            <div class="grade">
-                                <div class="progress p10">
-                                    <p> 10% </p>
-                                </div>
-                            </div>
+                            <h6>JavaScript</h6>
                         </div>
                     </div>
                     <div class="card-skills">
@@ -113,12 +93,15 @@
                             <figure class="card-skills__content__img">
                                 <img class="logo" src="/assets/img/React-icon.png" alt="logo React js">
                             </figure>
-                            <h5>React JS</h5>
-                            <div class="grade">
-                                <div class="progress p30">
-                                    <p> 30% </p>
-                                </div>
-                            </div>
+                            <h6>React JS</h6>
+                        </div>
+                    </div>
+                    <div class="card-skills">
+                        <div class="card-skills__content">
+                            <figure class="card-skills__content__img">
+                                <img class="logo" src="/assets/img/python.png" alt="logo Python">
+                            </figure>
+                            <h6>Python + (Frameworks : Django & Flask)</h6>
                         </div>
                     </div>
                     <div class="card-skills">
@@ -127,12 +110,16 @@
                                 <img class="logo" src="https://alfredotoledo.neocities.org/pictures/Php_01-01.png"
                                     alt="logo PHP">
                             </figure>
-                            <h5>PHP</h5>
-                            <div class="grade">
-                                <div class="progress p70">
-                                    <p> 70% </p>
-                                </div>
-                            </div>
+                            <h6>PHP</h6>
+                        </div>
+                    </div>
+                    <div class="card-skills">
+                        <div class="card-skills__content">
+                            <figure class="card-skills__content__img">
+                                <img class="logo"  src="/assets/img/symfony.png"
+                                    alt="logo Symfony">
+                            </figure>
+                            <h6>Symfony (framework PHP)</h6>
                         </div>
                     </div>
                     <div class="card-skills">
@@ -140,12 +127,7 @@
                             <figure class="card-skills__content__img">
                                 <img class="logo" src="/assets/img/mySql_logo.png" alt="logo MySQL">
                             </figure>
-                            <h5>MySQL</h5>
-                            <div class="grade">
-                                <div class="progress p60">
-                                    <p> 60% </p>
-                                </div>
-                            </div>
+                            <h6>MySQL</h6>
                         </div>
                     </div>
                     <div class="card-skills">
@@ -153,38 +135,7 @@
                             <figure class="card-skills__content__img">
                                 <img class="logo" src="/assets/img/php_my_admin_logo.png" alt="logo PHPMyAdmin">
                             </figure>
-                            <h5>PHPMyAdmin</h5>
-                            <div class="grade">
-                                <div class="progress p70">
-                                    <p> 70% </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-skills">
-                        <div class="card-skills__content">
-                            <figure class="card-skills__content__img">
-                                <img class="logo" src="/assets/img/symfony.png" alt="logo Symfony">
-                            </figure>
-                            <h5>Symfony</h5>
-                            <div class="grade">
-                                <div class="progress p10">
-                                    <p> 10% </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-skills">
-                        <div class="card-skills__content">
-                            <figure class="card-skills__content__img">
-                                <img class="logo" src="/assets/img/sass_logo.png" alt="logo SCSS">
-                            </figure>
-                            <h5>SASS</h5>
-                            <div class="grade">
-                                <div class="progress p80">
-                                    <p> 80% </p>
-                                </div>
-                            </div>
+                            <h6>PHPMyAdmin</h6>
                         </div>
                     </div>
                     <div class="card-skills">
@@ -192,25 +143,7 @@
                             <figure class="card-skills__content__img">
                                 <img class="logo" src="/assets/img/Git_logo.png" alt="logo Git">
                             </figure>
-                            <h5>GIT</h5>
-                            <div class="grade">
-                                <div class="progress p60">
-                                    <p> 60% </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-skills">
-                        <div class="card-skills__content">
-                            <figure class="card-skills__content__img">
-                                <img class="logo" src="/assets/img/Bootstrap_logo.png" alt="logo Bootstrap">
-                            </figure>
-                            <h5>Bootstrap</h5>
-                            <div class="grade">
-                                <div class="progress p85">
-                                    <p> 85% </p>
-                                </div>
-                            </div>
+                            <h6>GIT</h6>
                         </div>
                     </div>
                     <div class="card-skills">
@@ -218,12 +151,7 @@
                             <figure class="card-skills__content__img">
                                 <img class="logo" src="/assets/img/WordPress_logo.png" alt="logo WordPress">
                             </figure>
-                            <h5>WordPress</h5>
-                            <div class="grade">
-                                <div class="progress p50">
-                                    <p> 50% </p>
-                                </div>
-                            </div>
+                            <h6>WordPress</h6>
                         </div>
                     </div>
                 </div>
@@ -324,7 +252,7 @@
                                     alt="diplome comprendre le web lancelle clara OpenClassroom">
                                 </div>
                             </div>  
-                        <div id="réalisations"></div>
+                        <div id="achievements"></div>
                     </div>
                 </div>
             </div>
@@ -338,6 +266,157 @@
                     <div class="section-divider"></div>
                 </header>
                 <div class="achiev__content__body">
+                    <article class="card">
+                        <div class="card__title">
+                            <h5>Share your Plate</h5>
+                        </div>
+                        <figure class="card__img">
+                            <img src="/assets/img/construction.gif" alt="gif - en construction">
+                        </figure>
+                        <div class="card__desc">
+                            <p class="body__desc">
+                                <i>07/2023</i><br>
+                                <b>Application Django(python), Tailwind css.</b><br><br>
+                                En cours de développement <br>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card__title">
+                            <h5>File Date Sorter</h5>
+                        </div>
+                        <figure class="card__img">
+                            <img class="modalBtn" src="/assets/img/file_date_sort_start.png"
+                                    alt="Logiciel créé par lancelle clara : File date sorter - to change image exif dates">
+                            <div class="modal">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <img class="sites--modal" src="/assets/img/file_date_sort_start.png"
+                                    alt="Logiciel créé par lancelle clara : File date sorter - to change image exif dates">
+                                </div>
+                            </div>
+                            <img class="modalBtn" src="/assets/img/file_date_sorter_use.png"
+                                    alt="Logiciel créé par lancelle clara : File date sorter - to change image exif dates">
+                            <div class="modal">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <img class="sites--modal" src="/assets/img/file_date_sorter_use.png"
+                                    alt="Logiciel créé par lancelle clara : File date sorter - to change image exif dates">
+                                </div>
+                            </div>
+                            <img class="modalBtn" src="/assets/img/file_date_sorter_done.png"
+                                    alt="Logiciel créé par lancelle clara : File date sorter - to change image exif dates">
+                            <div class="modal">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <img class="sites--modal" src="/assets/img/file_date_sorter_done.png"
+                                    alt="Logiciel créé par lancelle clara : File date sorter - to change image exif dates ">
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="card__desc">
+                            <p class="body__desc">
+                                <i>07/2023</i><br>
+                                Ce <b>logiciel python</b> a pour but de permettre le changement des données EXIF d'une image.<br><br>
+                                Cet outil m'a permis de modifier les données EXIF (Exchangeable Image File Format) d'images prises il y a bien longtemps.<br><br>
+                                En effet ces images avaient bien une date de prise de vue dans leurs noms mais pas dans leurs efix.
+                                <b>Exemple :</b> <br>
+                                Image_name : 2002-10-02 12h01.jpg<br>
+                                Grâce à une regex, je sélectionne la date et l'heure présents dans le nom de l'image et les affecte à la date de prise de vue mais aussi à la date de modification de l'image<br><br>
+                                <b>Utilisation :</b> <br>
+                                - Cloner le depot GitHub (lien ci-après),<br>
+                                - Dans votre terminal : <br>
+                                        >> python3 -m venv env && source env/bin-activate  //créé et active un environnement python
+                                        >> pip install -r requirements.txt //installe tous les modules nécéssaires (pillow et piexif)
+                                        >> python3  //ouvre le shell python
+                                        >>> from sorter import sort
+                                        >>> sort('/path/to/the/folder/with/pics')
+                            </p>
+                        </div>
+                        <div class="card__link card__link--one">
+                            <div class="github">
+                                <p> Retrouvez ce projet sur mon dêpot GitHub : </p>
+                                <a href="https://github.com/clara-lancelle/FileDateSorter/" target="_blank"
+                                    title="lien vers le github deFile date sorter - to change image exif dates  par clara Lancelle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card__title">
+                            <h5>Mystery Number</h5>
+                        </div>
+                        <figure class="card__img">
+                            <img class="modalBtn" src="/assets/img/mystery_number_start.png"
+                                    alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                            <div class="modal">
+                                <!-- Modal content -->
+                                <div class="modal-  content">
+                                <span class="close">&times;</span>
+                                <img class="sites--modal" src="/assets/img/mystery_number_start.png"
+                                    alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                                </div>
+                            </div>
+                            <img class="modalBtn" src="/assets/img/mystery_number_on.png"
+                                    alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                            <div class="modal">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <img class="sites--modal" src="/assets/img/mystery_number_on.png"
+                                    alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                                </div>
+                            </div>
+                            <img class="modalBtn" src="/assets/img/mystery_number_win.png"
+                                    alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                            <div class="modal">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <img class="sites--modal" src="/assets/img/mystery_number_win.png"
+                                    alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="card__desc">
+                            <p class="body__desc">
+                                <i>05/2023</i><br>
+                                Ce <b>logiciel python</b> est un jeu disponible en terminal de commandes.<br><br>
+                                Le but du jeu est simple, vous devez devinez un chiffre entre 0 et 100, à chaque mauvaise réponse la consigne va utiliser votre réponse pour vous afficher un nouvel interval.<br><br>
+                                <b>Exemple :</b> <br>
+                                Consigne : "Un nombre mystère entre 0 et 100 a été généré, lequel ?".<br>
+                                Votre réponse : 30.<br>
+                                //Trop petit !.<br>
+                                Nouvelle consigne : "Le nombre mystère se trouve donc entre 30 et 100.". <br><br>
+                                <b>Utilisation :</b> <br>
+                                - Cloner le depot GitHub (lien ci-après),<br>
+                                Attention, si vous utilisez Python2 :<br>
+                                    Dans le fichier main.py, décommentez l'import "from Play import Play" et commentez "from Play_typed import Play".<br>
+                                - Dans votre terminal, executez le fichier main.py :   "python3 /folder_directory/main.py".
+                            </p>
+                        </div>
+                        <div class="card__link card__link--one">
+                            <div class="github">
+                                <p> Retrouvez ce projet sur mon dêpot GitHub : </p>
+                                <a href="https://github.com/clara-lancelle/mystery_number" target="_blank"
+                                    title="lien vers le github deMystery number - devine le nombre mystère par clara Lancelle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
                     <article class="card">
                         <div class="card__title">
                             <h5>Par ici les sorties</h5>
@@ -376,33 +455,30 @@
                         </figure>
                         <div class="card__desc">
                             <p class="body__desc">
+                                <i>12/2022 - 04/2023</i><br>
                             "Par ici les sorties" est le projet que j'ai créé afin de valider ma formation de développeur web à La Manu, école du numérique. <br>
                                 Ce projet à été pensé avec l’objectif de faciliter la diffusion des événements locaux,
                                     qu’ils soient organisés par des particuliers ou des professionnels. 
                                     Dans un second temps, 
                                     les producteurs et artisans ont la possibilité de créer des pages vitrines afin de faire connaître leurs activités.
                                 <br> <br>
-                                Outils utilisés : 
-                                <br>
-                                Trello : Organisation des tâches à réaliser,visualisation des besoins du projet.
-                                <br>
-                                Gloomaps : Création de l’arborescence du site, représentation des différentes pages et fonctionnalités nécessaires.
-                                <br>
-                                Figma : Maquettage en trois phases (zoning, wireframe, prototype).
+                                <b>Outils utilisés : </b>
+                                <ul>
+                                    <li>Trello : Organisation des tâches à réaliser,visualisation des besoins du projet.</li>
+                                    <li>Gloomaps : Création de l’arborescence du site, représentation des différentes pages et fonctionnalités nécessaires.</li>
+                                    <li>Figma : Maquettage en trois phases (zoning, wireframe, prototype).</li>
+                                </ul>
                                 <br><br>
-                                Langages utilisés : HTML/CSS/JavaScript/PHP/SQL
+                                <b> Langages utilisés :</b> HTML/CSS/JavaScript/PHP/SQL
                                 <br><br>
-                                Librairies et API : 
-                                <br>
-                                Vicopo API : Permet l’autocomplétion des champs de ville et code postal sur les différents formulaires du site.
-                                <br>
-                                JQuery : Librairie Javascript, utilisée ici avec Vicopo.
-                                <br>
-                                OpenStreetMap API : Permet l’accès à une base de données géographique et à des fonds de carte. (OpenSource)
-                                <br>
-                                Leaflet : Librairie javascript permettant l’affichage de la carte et des makers de positions. (OpenSource)
-                                <br>
-                                Nominatim API : Permet d’envoyer des requêtes afin convertir une ville, code postal (..) en géocodes et inversement.
+                                <b>Librairies et API :</b>
+                                <ul>
+                                    <li>Vicopo API : Permet l’autocomplétion des champs de ville et code postal sur les différents formulaires du site.</li>
+                                    <li>JQuery : Librairie Javascript, utilisée ici avec Vicopo.</li>
+                                    <li>OpenStreetMap API : Permet l’accès à une base de données géographique et à des fonds de carte. (OpenSource)</li>
+                                    <li>Leaflet : Librairie javascript permettant l’affichage de la carte et des makers de positions. (OpenSource)</li>
+                                    <li>Nominatim API : Permet d’envoyer des requêtes afin convertir une ville, code postal (..) en géocodes et inversement.</li>
+                                </ul>
                             </p>
                         </div>
                         <div class="card__link">
@@ -429,64 +505,63 @@
                     </article>
                     <article class="card">
                             <div class="card__title">
-                                <h5>Carnet de recettes partagées</h5>
+                                <h5> Calendar - Generateur de calendrier PHP methode MVC</h5>
                             </div>
                             <figure class="card__img">
-                                <img class="modalBtn" src="/assets/img/co.png"
-                                    alt="site web créé par lancelle clara : Mon carnet de recettes / My recipes booklet">
+                                <img class="modalBtn" src="/assets/img/calendar.png"
+                                        alt="site web créé par lancelle clara : Calendar - générateur de calendrier PHP méthode MVC">
                                 <div class="modal">
                                     <!-- Modal content -->
                                     <div class="modal-content">
                                     <span class="close">&times;</span>
-                                    <img class="sites--modal" src="/assets/img/co.png"
-                                        alt="site web créé par lancelle clara : PILS - Par ici les sorties">
+                                    <img class="sites--modal" src="/assets/img/calendar.png"
+                                        alt="site web créé par lancelle clara : Calendar - générateur de calendrier PHP méthode MVC">
                                     </div>
-                                </div>  
-                                <img class="modalBtn" src="/assets/img/screen.png"
-                                    alt="site web créé par lancelle clara : Mon carnet de recettes / My recipes booklet">
+                                </div>
+                                <img class="modalBtn" src="/assets/img/calendar_phone.png"
+                                        alt="site web créé par lancelle clara : Calendar - générateur de calendrier PHP méthode MVC">
                                 <div class="modal">
                                     <!-- Modal content -->
                                     <div class="modal-content">
                                     <span class="close">&times;</span>
-                                    <img class="sites--modal" src="/assets/img/screen.png"
-                                        alt="site web créé par lancelle clara : PILS - Par ici les sorties">
+                                    <img class="sites--modal" src="/assets/img/calendar_phone.png"
+                                        alt="site web créé par lancelle clara : Calendar - générateur de calendrier PHP méthode MVC">
                                     </div>
-                                </div>  
-                                <img class="modalBtn" src="/assets/img/my.png"
-                                    alt="site web créé par lancelle clara : Mon carnet de recettes / My recipes booklet">
+                                </div>
+                                <img class="modalBtn" src="/assets/img/calendar_empty.png"
+                                        alt="site web créé par lancelle clara : Calendar - générateur de calendrier PHP méthode MVC">
                                 <div class="modal">
                                     <!-- Modal content -->
                                     <div class="modal-content">
                                     <span class="close">&times;</span>
-                                    <img class="sites--modal" src="/assets/img/my.png"
-                                        alt="site web créé par lancelle clara : PILS - Par ici les sorties">
+                                    <img class="sites--modal" src="/assets/img/calendar_empty.png"
+                                        alt="site web créé par lancelle clara : Calendar - générateur de calendrier PHP méthode MVC">
                                     </div>
-                                </div>  
+                                </div>
                             </figure>
                             <div class="card__desc">
                                 <p class="body__desc">
-                                    J'ai réalisé ce site web dynamique et responsive durant mon année d'apprentissage du
-                                    code en autodidacte, en suivant les consignes d'une épreuve de BTS. <br>
-                                    Cette épreuve ne demandait pas de créer un site web, mais de manipuler les entrées
-                                    d'une base de donnée
-                                    et d'être en capacité de les afficher, de les modifier et de les supprimer. <br>
-                                    J'ai décidé d'en faire un site web à part entière afin de tester mes compétences et
-                                    de me confronter à de nouvelles problématiques. <br>
-                                    Avec les langages et outils suivants : HTML, CSS, PHP, MySQL, Bootstrap, PHPMyAdmin.
-                                    <br><br>
-                                    Fonctionalités : <br><br>
-                                    - Inscription, connexion, deconnexion. <br>
-                                    - Enregistrement de nouvelles recettes. <br>
-                                    - Modification de ses recettes. <br>
-                                    - Affichage de l'ensemble des recettes de la communautée. <br>
-                                    - Affichage de l'ensemble de ses recettes.
+                                    <i>02/2023</i><br>
+                                    Ce <b>Calendrier réalisé en PHP</b> est un exercice proposé durant ma
+                                    formation de
+                                    'développeur web et web
+                                    mobile' <br><br>
+                                    Il est entièrement réalisé en HTML / CSS / PHP .<br>
+                                    J'ai d'abord réalisé cet exercice comme demandé dans l'énoncé (sans PHP orienté
+                                    objet).<br>
+                                    J'ai ensuite décidé de transformer mon travail avec la méthode Model View Controller
+                                    afin
+                                    d'obtenir un calendrier en POO.
+                                    <br>
+                                    Pour l'utiliser il suffit de fournir un mois, une année et grâce à l'algorithme mis
+                                    en place, il génère le calendrier demandé entre 1900 et aujourd'hui.
                                 </p>
                             </div>
                             <div class="card__link">
                                 <div class="github">
                                     <p> Retrouvez ce projet sur mon dêpot GitHub : </p>
-                                    <a href="https://github.com/clara-lancelle/TD_Recipes" target="_blank"
-                                        title="lien vers le github de mon site de recettes de cuisines : mon carnet de recettes / my recipes booklet par clara Lancelle">
+                                    <a href="https://github.com/clara-lancelle/Calendar" target="_blank"
+                                        title="lien vers le github de Calendar - générateur de calendrier PHP méthode MVC par clara Lancelle">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github"
                                             viewBox="0 0 16 16">
                                             <path
@@ -496,89 +571,10 @@
                                 </div>
                                 <div class="web">
                                     <p> Ou en ligne à l'adresse :
-                                        <a href="https://recipes.lancelle-clara.fr/welcome_page.php"
-                                            class="website_link" target="_blank"
-                                            title="lien vers mon site de recettes de cuisines : mon carnet de recettes / my recipes booklet par clara Lanclle">
-                                            https://recipes.lancelle-clara.fr/welcome_page.php </a>
-                                    </p>
-                                </div>
-                            </div>
-                    </article>
-                    <article class="card">
-                            <div class="card__title">
-                                <h5>ShiFuMi - Pierre Feuille Papier Ciseaux Lezard Spock </h5>
-                            </div>
-                            <figure class="card__img">
-                                <img class="modalBtn" src="/assets/img/shifumi.png"
-                                        alt="site web créé par lancelle clara : shifumi - Pierre Feuille Papier Ciseaux Lezard Spock / javascript">
-                                <div class="modal">
-                                    <!-- Modal content -->
-                                    <div class="modal-content">
-                                    <span class="close">&times;</span>
-                                    <img class="sites--modal" src="/assets/img/shifumi.png"
-                                        alt="site web créé par lancelle clara : PILS - Par ici les sorties">
-                                    </div>
-                                </div> 
-                                <img class="modalBtn" src="/assets/img/shifumi_phone.png"
-                                        alt="site web créé par lancelle clara : shifumi - Pierre Feuille Papier Ciseaux Lezard Spock / javascript">
-                                <div class="modal">
-                                    <!-- Modal content -->
-                                    <div class="modal-content">
-                                    <span class="close">&times;</span>
-                                    <img class="sites--modal" src="/assets/img/shifumi_phone.png"
-                                        alt="site web créé par lancelle clara : PILS - Par ici les sorties">
-                                    </div>
-                                </div> 
-                                <img class="modalBtn" src="/assets/img/shifumi_played.png"
-                                        alt="site web créé par lancelle clara : shifumi - Pierre Feuille Papier Ciseaux Lezard Spock / javascript">
-                                <div class="modal">
-                                    <!-- Modal content -->
-                                    <div class="modal-content">
-                                    <span class="close">&times;</span>
-                                    <img class="sites--modal" src="/assets/img/shifumi_played.png"
-                                        alt="site web créé par lancelle clara : PILS - Par ici les sorties">
-                                    </div>
-                                </div> 
-                            </figure>
-                            <div class="card__desc">
-                                <p class="body__desc">
-                                    Ce ShiFuMi est un exercice proposé durant ma formation de 'développeur web et web
-                                    mobile' <br>
-                                    Il est codé en Javascript / CSS / HTML. <br>
-
-                                    Utilisation : <br> <br>
-
-                                    Vous faites un partie de ShiFuMi contre l'ordinateur. <br>
-
-                                    Cette version est inspirée de la serie 'The Big Bang Theory' et possède 5
-                                    possibilités de coups : <br>
-                                    pierre - papier - ciseaux - lezard - spock. <br>
-                                    Les règles sont expliquées sur le site. <br>
-                                    Pour gagner la partie il vous faudra trois victoires. <br><br>
-
-                                    Fonctionalités : <br><br>
-                                    - Jouer ! <br>
-                                    - Rejouer !
-                                </p>
-                            </div>
-                            <div class="card__link">
-                                <div class="github">
-                                    <p> Retrouvez ce projet sur mon dêpot GitHub : </p>
-                                    <a href="https://github.com/clara-lancelle/ShiFuMi" target="_blank"
-                                        title="lien vers le github de mon site shifumi - Pierre Feuille Papier Ciseaux Lezard Spock / javascript / par clara Lancelle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github"
-                                            viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                                        </svg>
-                                    </a>
-                                </div>
-                                <div class="web">
-                                    <p> Ou en ligne à l'adresse :
-                                        <a href="https://shifumi.lancelle-clara.fr/" class="website_link"
+                                        <a href="https://calendar.lancelle-clara.fr/" class="website_link"
                                             target="_blank"
-                                            title="lien vers mon site shifumi - Pierre Feuille Papier Ciseaux Lezard Spock / javascript / par clara Lancelle">
-                                            https://shifumi.lancelle-clara.fr/</a>
+                                            title="lien vers le site web de Calendar - générateur de calendrier PHP méthode MVC par clara Lancelle">
+                                            https://calendar.lancelle-clara.fr/</a>
                                     </p>
                                 </div>
                             </div>
@@ -621,16 +617,17 @@
                             </figure>
                             <div class="card__desc">
                                 <p class="body__desc">
-                                    Ce <em>Site web e-commerce Wordpress</em> est un exercice proposé durant ma
+                                    <i>12/2022</i><br>
+                                    Ce <b>Site web e-commerce Wordpress</b> est un exercice proposé durant ma
                                     formation de
                                     'développeur web et web
                                     mobile' <br><br>
                                     Il est entièrement réalisé via le CMS Wordpress. <br>
                                     Le constructeur de page Elementor a été utilisé pour concevoir ce site web. <br>
-                                    L'extention <em>WooCommerce</em> m'a permis de réaliser la partie e-commerce de ce
+                                    L'extention <b>WooCommerce</b> m'a permis de réaliser la partie e-commerce de ce
                                     site
                                     (panier, produits, boutique, ..), <br>
-                                    l'extention <em>Contact Form 7 </em> m'a aidé à réaliser le formulaire de contact.
+                                    l'extention <b>Contact Form 7 </b> m'a aidé à réaliser le formulaire de contact.
                                     <br><br>
                                     Amaranth est le site web d'un artiste parisien souhaitant faire connaitre son
                                     travail,
@@ -643,62 +640,67 @@
                     </article>
                     <article class="card">
                             <div class="card__title">
-                                <h5> Calendar - Generateur de calendrier PHP methode MVC</h5>
+                                <h5>ShiFuMi - Pierre Feuille Papier Ciseaux Lezard Spock </h5>
                             </div>
                             <figure class="card__img">
-                                <img class="modalBtn" src="/assets/img/calendar.png"
-                                        alt="site web créé par lancelle clara : Calendar - générateur de calendrier PHP méthode MVC">
+                                <img class="modalBtn" src="/assets/img/shifumi.png"
+                                        alt="site web créé par lancelle clara : shifumi - Pierre Feuille Papier Ciseaux Lezard Spock / javascript">
                                 <div class="modal">
                                     <!-- Modal content -->
                                     <div class="modal-content">
                                     <span class="close">&times;</span>
-                                    <img class="sites--modal" src="/assets/img/calendar.png"
-                                        alt="site web créé par lancelle clara : Calendar - générateur de calendrier PHP méthode MVC">
+                                    <img class="sites--modal" src="/assets/img/shifumi.png"
+                                        alt="site web créé par lancelle clara : PILS - Par ici les sorties">
                                     </div>
-                                </div>
-                                <img class="modalBtn" src="/assets/img/calendar_phone.png"
-                                        alt="site web créé par lancelle clara : Calendar - générateur de calendrier PHP méthode MVC">
+                                </div> 
+                                <img class="modalBtn" src="/assets/img/shifumi_phone.png"
+                                        alt="site web créé par lancelle clara : shifumi - Pierre Feuille Papier Ciseaux Lezard Spock / javascript">
                                 <div class="modal">
                                     <!-- Modal content -->
                                     <div class="modal-content">
                                     <span class="close">&times;</span>
-                                    <img class="sites--modal" src="/assets/img/calendar_phone.png"
-                                        alt="site web créé par lancelle clara : Calendar - générateur de calendrier PHP méthode MVC">
+                                    <img class="sites--modal" src="/assets/img/shifumi_phone.png"
+                                        alt="site web créé par lancelle clara : PILS - Par ici les sorties">
                                     </div>
-                                </div>
-                                <img class="modalBtn" src="/assets/img/calendar_empty.png"
-                                        alt="site web créé par lancelle clara : Calendar - générateur de calendrier PHP méthode MVC">
+                                </div> 
+                                <img class="modalBtn" src="/assets/img/shifumi_played.png"
+                                        alt="site web créé par lancelle clara : shifumi - Pierre Feuille Papier Ciseaux Lezard Spock / javascript">
                                 <div class="modal">
                                     <!-- Modal content -->
                                     <div class="modal-content">
                                     <span class="close">&times;</span>
-                                    <img class="sites--modal" src="/assets/img/calendar_empty.png"
-                                        alt="site web créé par lancelle clara : Calendar - générateur de calendrier PHP méthode MVC">
+                                    <img class="sites--modal" src="/assets/img/shifumi_played.png"
+                                        alt="site web créé par lancelle clara : PILS - Par ici les sorties">
                                     </div>
-                                </div>
+                                </div> 
                             </figure>
                             <div class="card__desc">
                                 <p class="body__desc">
-                                    Ce <em>Calendrier réalisé en PHP</em> est un exercice proposé durant ma
-                                    formation de
-                                    'développeur web et web
-                                    mobile' <br><br>
-                                    Il est entièrement réalisé en HTML / CSS / PHP .<br>
-                                    J'ai d'abord réalisé cet exercice comme demandé dans l'énoncé (sans PHP orienté
-                                    objet).<br>
-                                    J'ai ensuite décidé de transformer mon travail avec la méthode Model View Controller
-                                    afin
-                                    d'obtenir un calendrier en POO.
-                                    <br>
-                                    Pour l'utiliser il suffit de fournir un mois, une année et grâce à l'algorithme mis
-                                    en place, il génère le calendrier demandé entre 1900 et aujourd'hui.
+                                    <i>11/2022</i> <br>
+                                    Ce ShiFuMi est un exercice proposé durant ma formation de 'développeur web et web
+                                    mobile' <br>
+                                    Il est codé en Javascript / CSS / HTML. <br>
+
+                                    <b>Utilisation :</b> <br> <br>
+
+                                    Vous faites un partie de ShiFuMi contre l'ordinateur. <br>
+
+                                    Cette version est inspirée de la serie 'The Big Bang Theory' et possède 5
+                                    possibilités de coups : <br>
+                                    pierre - papier - ciseaux - lezard - spock. <br>
+                                    Les règles sont expliquées sur le site. <br>
+                                    Pour gagner la partie il vous faudra trois victoires. <br><br>
+
+                                    <b>Fonctionalités :</b>  <br><br>
+                                    - Jouer ! <br>
+                                    - Rejouer !
                                 </p>
                             </div>
                             <div class="card__link">
                                 <div class="github">
                                     <p> Retrouvez ce projet sur mon dêpot GitHub : </p>
-                                    <a href="https://github.com/clara-lancelle/Calendar" target="_blank"
-                                        title="lien vers le github de Calendar - générateur de calendrier PHP méthode MVC par clara Lancelle">
+                                    <a href="https://github.com/clara-lancelle/ShiFuMi" target="_blank"
+                                        title="lien vers le github de mon site shifumi - Pierre Feuille Papier Ciseaux Lezard Spock / javascript / par clara Lancelle">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github"
                                             viewBox="0 0 16 16">
                                             <path
@@ -708,71 +710,75 @@
                                 </div>
                                 <div class="web">
                                     <p> Ou en ligne à l'adresse :
-                                        <a href="https://calendar.lancelle-clara.fr/" class="website_link"
+                                        <a href="https://shifumi.lancelle-clara.fr/" class="website_link"
                                             target="_blank"
-                                            title="lien vers le site web de Calendar - générateur de calendrier PHP méthode MVC par clara Lancelle">
-                                            https://calendar.lancelle-clara.fr/</a>
+                                            title="lien vers mon site shifumi - Pierre Feuille Papier Ciseaux Lezard Spock / javascript / par clara Lancelle">
+                                            https://shifumi.lancelle-clara.fr/</a>
                                     </p>
                                 </div>
                             </div>
                     </article>
                     <article class="card">
                             <div class="card__title">
-                                <h5>Mystery Number</h5>
+                                <h5>Carnet de recettes partagées</h5>
                             </div>
                             <figure class="card__img">
-                                <img class="modalBtn" src="/assets/img/mystery_number_start.png"
-                                        alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
-                                <div class="modal">
-                                    <!-- Modal content -->
-                                    <div class="modal-  content">
-                                    <span class="close">&times;</span>
-                                    <img class="sites--modal" src="/assets/img/mystery_number_start.png"
-                                        alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
-                                    </div>
-                                </div>
-                                <img class="modalBtn" src="/assets/img/mystery_number_on.png"
-                                        alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                                <img class="modalBtn" src="/assets/img/co.png"
+                                    alt="site web créé par lancelle clara : Mon carnet de recettes / My recipes booklet">
                                 <div class="modal">
                                     <!-- Modal content -->
                                     <div class="modal-content">
                                     <span class="close">&times;</span>
-                                    <img class="sites--modal" src="/assets/img/mystery_number_on.png"
-                                        alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                                    <img class="sites--modal" src="/assets/img/co.png"
+                                        alt="site web créé par lancelle clara : PILS - Par ici les sorties">
                                     </div>
-                                </div>
-                                <img class="modalBtn" src="/assets/img/mystery_number_win.png"
-                                        alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                                </div>  
+                                <img class="modalBtn" src="/assets/img/screen.png"
+                                    alt="site web créé par lancelle clara : Mon carnet de recettes / My recipes booklet">
                                 <div class="modal">
                                     <!-- Modal content -->
                                     <div class="modal-content">
                                     <span class="close">&times;</span>
-                                    <img class="sites--modal" src="/assets/img/mystery_number_win.png"
-                                        alt="Logiciel créé par lancelle clara : Mystery number - devine le nombre mystère">
+                                    <img class="sites--modal" src="/assets/img/screen.png"
+                                        alt="site web créé par lancelle clara : PILS - Par ici les sorties">
                                     </div>
-                                </div>
+                                </div>  
+                                <img class="modalBtn" src="/assets/img/my.png"
+                                    alt="site web créé par lancelle clara : Mon carnet de recettes / My recipes booklet">
+                                <div class="modal">
+                                    <!-- Modal content -->
+                                    <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <img class="sites--modal" src="/assets/img/my.png"
+                                        alt="site web créé par lancelle clara : PILS - Par ici les sorties">
+                                    </div>
+                                </div>  
                             </figure>
                             <div class="card__desc">
                                 <p class="body__desc">
-                                    Ce <em>Logiciel python</em> est un jeu disponible en terminal de commandes.<br><br>
-                                    Le but du jeu est simple, vous devez devinez un chiffre entre 0 et 100, à chaque mauvaise réponse la consigne va utiliser votre réponse pour vous afficher un nouvel interval.<br><br>
-                                    Exemple :<br>
-                                    Consigne : "Un nombre mystère entre 0 et 100 a été généré, lequel ?".<br>
-                                    Votre réponse : 30.<br>
-                                    //Trop petit !.<br>
-                                    Nouvelle consigne : "Le nombre mystère se trouve donc entre 30 et 100.". <br><br>
-                                    Utilisation : <br>
-                                    - Cloner le depot GitHub (lien ci-après),<br>
-                                    Attention, si vous utilisez Python2 :<br>
-                                        Dans le fichier main.py, décommentez l'import "from Play import Play" et commentez "from Play_typed import Play".<br>
-                                    - Dans votre terminal, executez le fichier main.py :   "python3 /folder_directory/main.py".
+                                    <i>2022</i><br>
+                                    J'ai réalisé ce site web dynamique et responsive durant mon année d'apprentissage du
+                                    code en autodidacte, en suivant les consignes d'une épreuve de BTS. <br>
+                                    Cette épreuve ne demandait pas de créer un site web, mais de manipuler les entrées
+                                    d'une base de donnée
+                                    et d'être en capacité de les afficher, de les modifier et de les supprimer. <br>
+                                    J'ai décidé d'en faire un site web à part entière afin de tester mes compétences et
+                                    de me confronter à de nouvelles problématiques. <br>
+                                    Avec les langages et outils suivants : HTML, CSS, PHP, MySQL, Bootstrap, PHPMyAdmin.
+                                    <br><br>
+                                    <b>Fonctionalités :</b>  <br><br>
+                                    - Inscription, connexion, deconnexion. <br>
+                                    - Enregistrement de nouvelles recettes. <br>
+                                    - Modification de ses recettes. <br>
+                                    - Affichage de l'ensemble des recettes de la communautée. <br>
+                                    - Affichage de l'ensemble de ses recettes.
                                 </p>
                             </div>
-                            <div class="card__link card__link--one">
+                            <div class="card__link">
                                 <div class="github">
                                     <p> Retrouvez ce projet sur mon dêpot GitHub : </p>
-                                    <a href="https://github.com/clara-lancelle/mystery_number" target="_blank"
-                                        title="lien vers le github deMystery number - devine le nombre mystère par clara Lancelle">
+                                    <a href="https://github.com/clara-lancelle/TD_Recipes" target="_blank"
+                                        title="lien vers le github de mon site de recettes de cuisines : mon carnet de recettes / my recipes booklet par clara Lancelle">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github"
                                             viewBox="0 0 16 16">
                                             <path
@@ -780,20 +786,14 @@
                                         </svg>
                                     </a>
                                 </div>
-                            </div>
-                    </article>
-                    <article class="card">
-                            <div class="card__title">
-                                <h5>Share your Plate</h5>
-                            </div>
-                            <figure class="card__img">
-                                <img src="/assets/img/construction.gif" alt="gif - en construction">
-                            </figure>
-                            <div class="card__desc">
-                                <p class="body__desc">
-                                    <em>Application Django(python), Tailwind css.</em><br><br>
-                                    En cours de développement <br>
-                                </p>
+                                <div class="web">
+                                    <p> Ou en ligne à l'adresse :
+                                        <a href="https://recipes.lancelle-clara.fr/welcome_page.php"
+                                            class="website_link" target="_blank"
+                                            title="lien vers mon site de recettes de cuisines : mon carnet de recettes / my recipes booklet par clara Lanclle">
+                                            https://recipes.lancelle-clara.fr</a>
+                                    </p>
+                                </div>
                             </div>
                     </article>
                     <div id="contact"></div>
@@ -807,7 +807,7 @@
                     <h4 class="header__subtitle">Comment me contacter :</h4>
                     <div class="section-divider"></div>
                 </header>
-                <div class="contact__content__body body--small">
+                <div class="contact__content__body">
                     <div class="link svg">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope"
                             viewBox="0 0 16 16">
@@ -830,7 +830,7 @@
                 </div>
                 <div class="contact__content__form">
                     <div class="form__title">
-                        <h5>Vous pouvez aussi me transmettre un message via ce formulaire :</h5>
+                        <h6>Vous pouvez aussi me transmettre un message via ce formulaire :</h6>
                     </div>
                     <?php
                     if (isset($return['message'])) {
