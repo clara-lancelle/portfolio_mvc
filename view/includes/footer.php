@@ -5,7 +5,7 @@
         </p>
     </div>
 </footer>
-<?php if(isset($_GET['params']) && preg_match('/index/', $_GET['params']) || $_GET['params'] === '/') { ?>
+<?php if((isset($_GET['params']) && preg_match('/index/', $_GET['params']) || $_GET['params'] === '/')) { ?>
     <script src="/assets/js/index.js" type="text/javascript" ></script>
     <script src="/assets/js/burgerMenu.js" type="text/javascript" defer></script>
     <script src="/assets/js/messageAjax.js" async></script> 

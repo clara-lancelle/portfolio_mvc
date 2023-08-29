@@ -1,6 +1,7 @@
 let scroll_up_btn = document.getElementById("scroll_up_btn");
 let scroll_down_btn = document.getElementById("scroll_down_btn");
 let menu_btn = document.getElementById("menu-button");
+
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     scroll_up_btn.style.display = "block";
@@ -8,14 +9,6 @@ function scrollFunction() {
     scroll_up_btn.style.display = "none";
   }
 }
-
-// $(function() {
-//   $('.scroll-down').click (function() {
-//     $('html, body').animate({scrollTop: $('#moi').offset().top }, 'slow');
-//     return false;
-//   });
-// });
-
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
@@ -25,16 +18,7 @@ scroll_up_btn.addEventListener('click', () => {
   document.documentElement.scrollTop = 0;
 });
 
-// scroll_down_btn.addEventListener('click', () => {
-//   document.getElementById('moi').scrollIntoView({
-//     behavior: 'smooth'
-//   })
-// });
-
 // modal 
-
-// Get the <span> element that closes the modal
-let span = document.querySelector('.close');
 
 // When the user clicks the button, open the modal 
 
@@ -51,10 +35,15 @@ document.addEventListener('click',(e) => {
             }
         };
         let modal = getNextModal(e.target, '.modal');
-        console.log(modal);
-        modal.style.display = "block";
+        modal.style.display = "flex";
     }
     if(e.target.classList.contains('close')) {
         e.target.closest('.modal').style.display = "none";
     }
+    all_modals = document.querySelectorAll('.modal');
+    all_modals.forEach(modal => {
+        if (modal && modal.style.display == "flex" && !e.target.classList.contains('modalBtn')) {
+            modal.style.display = "none";
+        }
+    }) 
 })

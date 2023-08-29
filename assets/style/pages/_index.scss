@@ -278,7 +278,7 @@ svg.bi.bi-zoom-in {
                 align-self: center;
                 margin: 0;
 
-                img {
+                img.modalBtn {
                     width: 75%;
                     place-self: center;
                     @include smallScreen {
