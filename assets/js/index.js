@@ -25,11 +25,11 @@ scroll_up_btn.addEventListener('click', () => {
   document.documentElement.scrollTop = 0;
 });
 
-scroll_down_btn.addEventListener('click', () => {
-  document.getElementById('moi').scrollIntoView({
-    behavior: 'smooth'
-  })
-});
+// scroll_down_btn.addEventListener('click', () => {
+//   document.getElementById('moi').scrollIntoView({
+//     behavior: 'smooth'
+//   })
+// });
 
 // modal 
 

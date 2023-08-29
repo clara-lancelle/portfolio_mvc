@@ -271,15 +271,84 @@
                             <h5>Share your Plate</h5>
                         </div>
                         <figure class="card__img">
-                            <img src="/assets/img/construction.gif" alt="gif - en construction">
+                            <img class="modalBtn" src="/assets/img/shareyourplate.png"
+                                    alt="Page de connexion : application de partage de recettes de cuisines : ShareYourPlate par clara Lancelle">
+                            <div class="modal">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <img class="sites--modal" src="/assets/img/shareyourplate.png"
+                                    alt="Page de connexion : application de partage de recettes de cuisines : ShareYourPlate par clara Lancelle">
+                                </div>
+                            </div>  
+                            <img class="modalBtn" src="/assets/img/shareyourplate_phone.png"
+                                    alt="Page de gestion des followers : application de partage de recettes de cuisines : ShareYourPlate par clara Lancelle">
+                            <div class="modal">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <img class="sites--modal" src="/assets/img/shareyourplate_phone.png"
+                                    alt="Page de gestion des followers : application de partage de recettes de cuisines : ShareYourPlate par clara Lancelle">
+                                </div>
+                            </div> 
+                            <img class="modalBtn" src="/assets/img/shareyourplate_recipe.png"
+                                    alt="Page d'une recette : application de partage de recettes de cuisines : ShareYourPlate par clara Lancelle">
+                            <div class="modal">
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <img class="sites--modal" src="/assets/img/shareyourplate_recipe.png"
+                                    alt="Page d'une recette : application de partage de recettes de cuisines : ShareYourPlate par clara Lancelle">
+                                </div>
+                            </div>  
                         </figure>
                         <div class="card__desc">
                             <p class="body__desc">
-                                <i>07/2023</i><br>
-                                <b>Application Django(python), Tailwind css.</b><br><br>
-                                En cours de développement <br>
+                                <i>07/2023 - 08/2023</i><br>
+                                <b>Application Django</b> (framework Python),<b> Tailwind css</b> (framework CSS), base de données <b>PostgreSQL</b>.
+                                Ce projet est un recueil de recettes de cuisine en ligne avec la possibilité de suivre des utilisateurs et donc obtenir un “feed” personnalisé.
+                                <br>
+                                <b>Utilisation : </b>
+                                <br>
+                                Inscription,connexion,déconnexion, suppression de compte,
+                                Changement de mot de passe et de photo de profil.
+                                Ajout, Modification, Suppression de recettes,
+                                Follow, unFollow d’utilisateurs.
+                                <br><br>
+                                <b>Mise en production : </b>
+                                <br>
+                                Hébergement web (gratuit) : Vercel.com
+                                https://vercel.com/
+                                <br>
+                                Hébergement de la base de donnée PostgreSQL (gratuit) : Railway.app
+                                https://railway.app/
+                                <br>
+                                API Stockage cloud et gestion des fichiers (gratuit) : Cloudinary.com
+                                https://cloudinary.com/
+                                <br>
                             </p>
                         </div>
+                        <div class="card__link">
+                                <div class="github">
+                                    <p> Retrouvez ce projet sur mon dêpot GitHub : </p>
+                                    <a href="https://github.com/clara-lancelle/shareyourplate" target="_blank"
+                                        title="lien vers le github de mon application de partage de recettes de cuisines : ShareYourPlate par clara Lancelle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-github"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="web">
+                                    <p> Ou en ligne à l'adresse :
+                                        <a href="https://shareyourplate.vercel.app/"
+                                            class="website_link" target="_blank"
+                                            title="lien vers mon application de partage de recettes de cuisines : ShareYourPlate par clara Lancelle">
+                                            https://shareyourplate.vercel.app/</a>
+                                    </p>
+                                </div>
+                            </div>
                     </article>
                     <article class="card">
                         <div class="card__title">
@@ -497,7 +566,7 @@
                                     <p> Ou en ligne à l'adresse :
                                         <a href="https://pils.lancelle-clara.fr/home"
                                             class="website_link" target="_blank"
-                                            title="lien vers mon site : PILS - Par ici les sorties par clara Lanclle">
+                                            title="lien vers mon site : PILS - Par ici les sorties par clara Lancelle">
                                             https://pils.lancelle-clara.fr/home</a>
                                     </p>
                                 </div>
@@ -790,7 +859,7 @@
                                     <p> Ou en ligne à l'adresse :
                                         <a href="https://recipes.lancelle-clara.fr/welcome_page.php"
                                             class="website_link" target="_blank"
-                                            title="lien vers mon site de recettes de cuisines : mon carnet de recettes / my recipes booklet par clara Lanclle">
+                                            title="lien vers mon site de recettes de cuisines : mon carnet de recettes / my recipes booklet par clara Lancelle">
                                             https://recipes.lancelle-clara.fr</a>
                                     </p>
                                 </div>
